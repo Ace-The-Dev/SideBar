@@ -10,7 +10,7 @@ body{
 }
 .sidebar{
     position: fixed;
-    height:100vh;
+    height:100%;
     width:80px;
     transition:.4s linear;
     background-color: #17202a;
