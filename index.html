@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KingCode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top-section">
+            <div class="logo">
+                <img src="crown-king.jpg" alt="crown-logo">
+                <h1>KingCode</h1>
+            </div>
+            <div class="sidebar-toggle-btn">
+                <i class="fas fa-angles-right"></i>
+            </div>
+        </div>
+        <div class="sidebar-menu">
+            <div class="top-menu">
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-gauge"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-chart-simple"></i>
+                    <span>Analytics</span>
+                </a>
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Earn</span>
+                </a>
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                </a>
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-shop"></i>
+                    <span>Shop</span>
+                </a>
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-wallet"></i>
+                    <span>Wallet</span>
+                </a>
+            </div>
+            <div class="bottom-menu">
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-cogs"></i>
+                    <span>settings</span>
+                </a>
+
+                <a href="" class="sidebar-link">
+                    <i class="fas fa-arrow-right-from-bracket"></i>
+                    <span>LogOut</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.querySelector(".sidebar-toggle-btn").addEventListener("click",() => {
+            document.querySelector(".sidebar").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
